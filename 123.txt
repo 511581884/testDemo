@@ -1,0 +1,12 @@
+git步骤
+（1）cd /d +目录   进入项目目录
+（2）配置
+git config --global user.name "511581884"
+git config --global user.email "511581884@qq.com"
+(3)初始化
+git init 初始化，创建暂存区(隐藏的.git文件夹，里面存储项目的所有版本信息)
+（4）工作区=>暂存区
+git add 文件名
+git add * (提交所有文件)
+git commit -m "此次提交的描述"
+
