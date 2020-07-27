@@ -9,4 +9,8 @@ git init 初始化，创建暂存区(隐藏的.git文件夹，里面存储项目
 git add 文件名
 git add * (提交所有文件)
 git commit -m "此次提交的描述"
+（5）查看工作区状态
+git status
+(6)从暂存区恢复文件到工作区
+git checkout 文件名
 
