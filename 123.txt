@@ -20,3 +20,17 @@ git diff
 （10）恢复到某一个版本
 git reset --hard 版本号
 例如：git reset --hard dfdebe8ded98e9dc780aea5aed4cc0d3edd9f4ab
+
+
+(11)生成SSH密匙，给当前计算机授权，才能将文件从暂存区=>远程仓库
+ssh-keygen -t rsa -C "511581884@qq.com"
+提示：
+Your identification has been saved in /c/Users/林义杰/.ssh/id_rsa
+Your public key has been saved in /c/Users/林义杰/.ssh/id_rsa.pub
+那么，密匙就在：windows电脑查找文件:我的电脑=>用户=>用户名文件夹=>.ssh隐藏文件夹=>xxx.pub(存有密匙)
+
+（12）github账户配置密匙
+
+（13）暂存区=>远程仓库
+git remote add origin https://github.com/511581884/testDemo.git
+git push -u origin master
